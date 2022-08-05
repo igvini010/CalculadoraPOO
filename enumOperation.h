@@ -1,5 +1,5 @@
-#ifndef ENUMOPERATION_H
-#define ENUMOPERATION_H
+#ifndef ENUMOPERATION
+#define ENUMOPERATION
 
 enum Operations{Plus, Less, Multiplication, Division, Equal, Butn};
 

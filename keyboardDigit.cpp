@@ -1,48 +1,45 @@
 #include <iostream>
 
-#include "enumDigit.h"
+#include "keyboardDigit.h"
 
 using namespace std;
 
-class KeyboardDigit{
-public:
-    Digit pressZero(){
-        return Zero;
-    };
+Digit KeyboardDigit::pressZero(){
+    return Zero;
+};
 
-    Digit pressOne(){
-        return One;
-    };
+Digit KeyboardDigit::pressOne(){
+    return One;
+};
 
-    Digit pressTwo(){
-        return Two;
-    };
+Digit KeyboardDigit::pressTwo(){
+    return Two;
+};
 
-    Digit pressThree(){
-        return Three;
-    };
+Digit KeyboardDigit::pressThree(){
+    return Three;
+};
         
-    Digit pressFour(){
-        return Four;
-    };
+Digit KeyboardDigit::pressFour(){
+    return Four;
+};
 
-    Digit pressFive(){
-        return Five;
-    };
+Digit KeyboardDigit::pressFive(){
+    return Five;
+};
 
-    Digit pressSix(){
-        return Six;
-    };
+Digit KeyboardDigit::pressSix(){
+    return Six;
+};
 
-    Digit pressSeven(){
-        return Seven;
-    };
+Digit KeyboardDigit::pressSeven(){
+    return Seven;
+};
 
-    Digit pressEight(){
-        return Eight;
-    };
+Digit KeyboardDigit::pressEight(){
+    return Eight;
+};
 
-    Digit pressNine(){
-        return Nine;
-    };
+Digit KeyboardDigit::pressNine(){
+    return Nine;
 };

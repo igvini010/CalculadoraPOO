@@ -4,13 +4,6 @@
 
 using namespace std;
 
-Calculator::Calculator(Cpu* cpu, Display* display, Keyboard* keyboard, Receiver* receiver){
-    this->cpu = cpu;
-    this->display = display;
-    this->keyboard = keyboard;
-    this->receiver = receiver;
-}
-
 void Calculator::showNumbers(Digit n1){
     if(verificationHaveNumbers == 0){
         verificationHaveNumbers++;

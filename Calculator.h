@@ -1,15 +1,13 @@
 #ifndef CALCULATOR_H
 #define CALCULATOR_H
 
-#include "Cpu.h"
+#include "CPU.h"
 #include "Display.h"
 #include "Keyboard.h"
 #include "Receiver.h"
 
 class Calculator{
 public:
-    Calculator(Cpu* cpu, Display* display, Keyboard* keyboard, Receiver* receiver);
-
     Cpu* cpu;
     Keyboard* keyboard;
     Display* display;
@@ -21,6 +19,13 @@ public:
     int verificationHaveOperation = 0;
     int verificationCalc = 0;
     float result;
+
+    Calculator(Cpu* cpu, Display* display, Keyboard* keyboard, Receiver* receiver){
+        this->cpu = cpu;
+        this->display = display;
+        this->keyboard = keyboard;
+        this->receiver = receiver;
+    };
 
     void showNumbers(Digit n1);
     void showOperations(Operations op);

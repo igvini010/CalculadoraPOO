@@ -3,7 +3,7 @@
 
 #include "enumDigit.h"
 #include "enumOperation.h"
-#include "Display.cpp"
+#include "Display.h"
 
 class Receiver{
 public:

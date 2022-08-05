@@ -1,12 +1,12 @@
 #ifndef KEYBOARD_H
 #define KEYBOARD_H
 
-#include "keyboardDigit.cpp"
-#include "keyboardOperation.cpp"
+#include "keyboardDigit.h"
+#include "keyboardOperation.h"
 
-class Keyboard:public KeyboardDigit, public KeyboardOperation{
+class Keyboard: public KeyboardDigit, public KeyboardOperation{
 public:
-
+    Keyboard();
 };
 
 #endif
