@@ -7,6 +7,11 @@
 #include "Display.h"
 #include "Keyboard.h"
 #include "Receiver.h"
+#include "Calculator.cpp"
+#include "CPU.cpp"
+#include "Display.cpp"
+#include "Keyboard.cpp"
+#include "Receiver.cpp"
 
 using namespace std;
 
